@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: "Raleway", sans-serif;
+}
+body{
+    /* background-color: #e0dede; */
+    /* height: 5000px; */
+    background-color: #ffdddd ;
+}
+/* start nav */
+
+nav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+ 
+nav ul{
+   
+    display: flex;
+    background-color: #ffffff8e;
+    /* background-color:transparent; */
+    
+   
+    
+}
+nav ul li {
+    width: calc((100% - 40px ) / 4);
+    list-style: none;
+    padding: 8px 0 ;
+    background-color: transparent;
+    margin: 10px;
+    text-align: center;
+    
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Raleway", sans-serif;
+}
+nav ul:hover{
+   background-color: #fff;
+}
+nav ul li:hover{
+    background-color: rgba(128, 128, 128, 0.616);
+}
+
+
+/* end nav */
+/* start hedder */
+    /* header{
+      
+    } */
+    header .img{
+        background-image: url(img/wedding_couple.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    header .contanir{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+    header .contanir h1{
+        font-size: 70px;
+        font-family: "Raleway", sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        
+        font-weight: 400;
+    }
+    header .contanir h2{
+        font-size: 40px;
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+
+    }
+    header .contanir p{
+        font-size: 40px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        font-family: "Raleway", sans-serif;
+    }
+    @media (max-width:817px){
+        h1{
+           max-width:200px ;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+/* end hedder */
+/* start jane */
+
+ .contant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-color: #ffdddd ;
+    
+
+ }
+.jane{
+    width: 80%
+}
+.jane img{
+    width: 100%;
+    opacity: 0.7;
+}
+.jane h3{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin: 100px 0;
+}
+.jane p{
+    font-size: 19px;
+    margin: 50px 0;
+    font-style: italic;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5em;
+    color: #000000a1;
+}
+.jane button{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    padding:20px 30px;
+    font-size: 22px;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+   
+}
+.jane button:hover{
+    background-color: #e6e4e4de;
+    color: #000;
+}
+
+/* end jane */
+
+/* start sec-Invited */
+.invited{
+    position: relative;
+}
+.invited img{
+    width: 100%;
+    margin-top: 150px;
+}
+.invited h4{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    font-size: 75px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+.invited p{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50% , -60%);
+    font-size: 45px;
+    color: #fff;
+    font-weight:lighter;
+}
+
+/* end sec-Invited */
+
+/* start sec-WEDDING */
+.wedding {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+}
+.wedding h5{
+    font-size: 50px;
+    margin: 100px 0;
+}
+.contant{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+
+}
+.contant .div1{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contant .div2{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contant .div1 .h6{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.contant .div2 .h7{
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.contant .div1 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #00000098;
+}
+.contant .div2 p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #00000098;
+}
+
+
+
+/* end sec-WEDDING */
+
+/* start sec-end */
+.end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+}
+.end .h8{
+    font-size: 45px;
+    font-weight: 400;
+    margin: 50px 0;
+}
+.end p{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.end button{
+    background-color: #f44336b2;
+    padding: 15px 55px;
+    font-size: 35px;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffffc0;
+    font-weight: 300;
+    margin-bottom: 70px;
+
+}
+.end button:hover{
+    color: #000;
+    background-color: #80808079;
+}
+
+/* end sec-end */
+
+
+/* start footer */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+    margin: 20px 0;
+}
+
+/* end footer */
